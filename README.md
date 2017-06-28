@@ -1,7 +1,7 @@
 # NLP
 Use NLP to extract features from bodybuilding.com forum article titles and classify them into 8 muscle groups. Train the data with XGboost model. 
 
-Muscle groups:
+## Muscle groups:
 - chest
 - biceps
 - triceps
@@ -10,3 +10,10 @@ Muscle groups:
 - leg
 - abs
 - shoulders
+
+## Pre-process data 
+TFIDFVectorizer
+
+## Model
+- Benchmark - random forest
+- XGboost
