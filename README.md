@@ -1,5 +1,5 @@
 # NLP
-Use NLP to extract features from bodybuilding.com forum article titles and classify them into 8 muscle groups. Train the data with XGboost model. 
+Use NLP to extract features from bodybuilding.com forum article titles and classify them into 8 muscle groups. Train the data with XGboost and Tensorflow. 
 
 ## Data
 [bodybuilding](https://bodybuilding.com) web crawler
@@ -16,15 +16,18 @@ Use NLP to extract features from bodybuilding.com forum article titles and class
 - shoulders
 
 ## Pre-process data 
+- Remove numbers, punctuations, and https://
 - TFIDFVectorizer
-- NLTK
 
 ## Model
 - Benchmark : random forest
 - XGboost : gradient boosting tree
+- Tensorflow NN single layer
+- Tensorflow RNN : recurrent neural network
 
 ## Required Libraries
 - sklearn
 - numpy
 - pandas
 - xgboost
+- tensorflow
