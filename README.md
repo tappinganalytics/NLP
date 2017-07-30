@@ -4,6 +4,9 @@ Use NLP to extract features from bodybuilding.com forum article titles and class
 ## Data
 [bodybuilding](https://bodybuilding.com) web crawler
 67k data entries - 440MB
+[exrx](http://www.exrx.net) web crawler
+308 data entries - 360kB
+
 
 ## Muscle groups:
 - chest
@@ -31,3 +34,4 @@ Use NLP to extract features from bodybuilding.com forum article titles and class
 - pandas
 - xgboost
 - tensorflow
+- json
