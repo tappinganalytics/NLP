@@ -27,6 +27,7 @@ Use NLP to extract features from bodybuilding.com forum article titles and class
 - XGboost : gradient boosting tree
 - Tensorflow NN single layer
 - Tensorflow RNN : recurrent neural network
+- Word2Vec: gensim word2vec model
 
 ## Required Libraries
 - sklearn
@@ -35,3 +36,4 @@ Use NLP to extract features from bodybuilding.com forum article titles and class
 - xgboost
 - tensorflow
 - json
+- gensim
