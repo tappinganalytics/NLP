@@ -1,5 +1,5 @@
 # NLP
-Use NLP to extract features from bodybuilding.com forum article titles and classify them into 8 muscle groups. Train the data with XGboost and Tensorflow. 
+Use NLP to extract features from EXRX.net exercise information and classify them into 8 muscle groups. Train the data with XGboost, Word2Vec, and Tensorflow. 
 
 ## Data
 [bodybuilding](https://bodybuilding.com) web crawler
@@ -9,14 +9,14 @@ Use NLP to extract features from bodybuilding.com forum article titles and class
 
 
 ## Muscle groups:
-- chest
-- biceps
-- triceps
-- glutes
-- back
-- leg
-- abs
-- shoulders
+- Chest
+- Biceps
+- Triceps
+- Glutes
+- Back
+- Leg
+- Abs
+- Shoulders
 
 ## Pre-process data 
 - Remove numbers, punctuations, and https://
@@ -37,3 +37,7 @@ Use NLP to extract features from bodybuilding.com forum article titles and class
 - tensorflow
 - json
 - gensim
+
+## Result
+
+Bodybuilding.com data are too generic for training purpose, we opted to use EXRX.net data. Tensorflow Neural Net gives 93% accuracy within its data set. We need to expand our model to predict potential user question and classify them into 8 categories. For this we use Word2Vec model for calculating the similarity between question sentence and muscle names. The accuracy so far is unclear. 
